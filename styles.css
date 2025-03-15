@@ -14,6 +14,7 @@ header{
 
 h1{
     margin: 0;
+    color: aquamarine;
 }
 
 .Nav-menu{
@@ -28,7 +29,7 @@ h1{
 
 }
 
-.VentanaLogin{
+.ShowVentana{
     display: none;
     position: absolute;
     background: white;
@@ -61,12 +62,12 @@ h1{
 }
 
 
-.MenuDespegableSign {
+.MenuDespegable {
     position: relative;
     display: inline-block;
   }
   
-  .VentanaLogin {
+  .ShowVentana {
     display: none;
     position: absolute;
     top: 100%;
@@ -79,7 +80,7 @@ h1{
   }
   
   /* Mostrar menú cuando el usuario pasa el mouse */
-  .MenuDespegableSign:hover .VentanaLogin {
+  .MenuDespegable:hover .ShowVentana {
     display: block;
   }
 
